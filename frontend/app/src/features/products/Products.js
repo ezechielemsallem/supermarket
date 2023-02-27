@@ -47,7 +47,7 @@ export const Products = () => {
             </div>
             <Categories  ></Categories>
             <div style={{ display: "flex"}}>
-            <Row  md={5} style={{marginTop:"1%", marginRight:"3%"}} >
+            <Row  md={5} style={{marginTop:"1%", marginRight:"3%", marginLeft:"3%"}} >
                 
                 {
                     products.map((product, i) =>
